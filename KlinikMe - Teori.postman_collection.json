@@ -1,0 +1,446 @@
+{
+	"info": {
+		"_postman_id": "ec254c21-4d6c-4452-9525-cde88139ad45",
+		"name": "KlinikMe - Teori",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28588219"
+	},
+	"item": [
+		{
+			"name": "Jumlah Array",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lcl}}/jumlah-anggota",
+							"host": [
+								"{{lcl}}"
+							],
+							"path": [
+								"jumlah-anggota"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "83"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"53-IqZNDOv011mOqgW8Dk5oWDgMmbI\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 16 Jan 2025 03:00:36 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"Successfully count elements of natural number\",\n    \"data\": 19\n}"
+				}
+			]
+		},
+		{
+			"name": "Nilai Terkecil",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lcl}}/terkecil",
+							"host": [
+								"{{lcl}}"
+							],
+							"path": [
+								"terkecil"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "76"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"4c-AHuxrMYu7jqGKBkDec/S/5bShsg\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 16 Jan 2025 03:10:01 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"Successfully found the smallest element\",\n    \"data\": 1\n}"
+				}
+			]
+		},
+		{
+			"name": "Nilai Terbesar",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lcl}}/terbesar",
+							"host": [
+								"{{lcl}}"
+							],
+							"path": [
+								"terbesar"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "76"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"4c-Ap/bSaPSvR9lG1EGPsaL2BXOxA0\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 16 Jan 2025 03:13:12 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"Successfully found the biggest element\",\n    \"data\": 99\n}"
+				}
+			]
+		},
+		{
+			"name": "Angka Duplikat",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "New Request Copy",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lcl}}/angka-duplikat",
+							"host": [
+								"{{lcl}}"
+							],
+							"path": [
+								"angka-duplikat"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "79"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"4f-o6AAHXwVLuYmT6EDUMnhxnOWBpo\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 16 Jan 2025 03:13:55 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"Successfully found duplicate elements\",\n    \"data\": [\n        26,\n        7\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Indeks Angka Duplikat",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "New Request Copy",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lcl}}/posisi-duplikat",
+							"host": [
+								"{{lcl}}"
+							],
+							"path": [
+								"posisi-duplikat"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "108"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"6c-1OWvV7iP4iQUKjZgwc98hsrJiv0\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 16 Jan 2025 03:15:17 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"Successfully found positions of duplicate elements in sorted array\",\n    \"data\": [\n        10,\n        3\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Jumlah Ganjil Genap",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "New Request Copy",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lcl}}/jumlah-ganjil-genap",
+							"host": [
+								"{{lcl}}"
+							],
+							"path": [
+								"jumlah-ganjil-genap"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "96"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"60-rxfnjHU+OV5CFVMVwzQ5qMF1ByY\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 16 Jan 2025 03:16:11 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"Successfully counted odd and even numbers\",\n    \"data\": {\n        \"odd\": 12,\n        \"even\": 7\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Kelompok Ganjil Genap",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{lcl}}/kelompok-ganjil-genap",
+					"host": [
+						"{{lcl}}"
+					],
+					"path": [
+						"kelompok-ganjil-genap"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request Copy 2",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{lcl}}/kelompok-ganjil-genap",
+							"host": [
+								"{{lcl}}"
+							],
+							"path": [
+								"kelompok-ganjil-genap"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "146"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"92-QQFcijh5AG8ZV7kV9QOMyZ6wAAk\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 16 Jan 2025 03:16:28 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"Successfully grouped odd and even numbers\",\n    \"data\": {\n        \"odd\": [\n            83,\n            1,\n            67,\n            49,\n            7,\n            99,\n            19,\n            15,\n            7,\n            21,\n            39,\n            7\n        ],\n        \"even\": [\n            78,\n            26,\n            54,\n            36,\n            26,\n            2,\n            8\n        ]\n    }\n}"
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "lcl",
+			"value": "127.0.0.1:3000",
+			"type": "default"
+		}
+	]
+}
